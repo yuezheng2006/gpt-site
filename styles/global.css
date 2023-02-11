@@ -10,10 +10,22 @@ body {
   color: #333;
 }
 
+.home-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 40px 0;
+  padding: 0;
+  text-align: center;
+}
+
 .answer-area {
   white-space: pre-wrap;
   margin-top: 1rem;
   font-size: 1.15rem;
+  padding: 1rem;
+  border: 1px solid rgb(192, 192, 192);
+  word-break: break-all;
+  min-height: 300px;
 }
 
 .our-form {
@@ -27,14 +39,15 @@ body {
   padding: 5px;
   font-size: 1rem;
   margin-right: 10px;
+  
 }
 
 .prompt-button {
-  padding: 10px;
-  font-size: 1rem;
+  padding: 12px;
+  font-size: 1.5rem;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: rgb(46, 98, 255);
 }
 
@@ -101,14 +114,14 @@ body {
   animation-timing-function: linear;
   height: 30px;
   width: 30px;
-  border: 8px solid #777;
+  border: 2px solid rgb(46, 98, 255);
   border-right-color: transparent;
   border-radius: 50%;
   display: inline-block;
 }
 
 .container {
-  max-width: 700px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 10px 20px;
 }
@@ -118,15 +131,20 @@ body {
   height: auto;
 }
 
-.footer {
-  border-top: 1px dotted rgb(192, 192, 192);
+.nav {
   max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
 }
 
-.footer a {
-  color: #999;
+.nav a {
   margin: 0 10px;
+  font-size: 1.4rem;;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.1rem;
 }
