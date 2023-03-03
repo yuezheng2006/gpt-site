@@ -4,10 +4,10 @@ import "../styles/global.css";
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <h1 className="home-title"> GPT-3 开放功能演示</h1>
+      <h1 className="home-title"> OpenAI 开放功能演示</h1>
       <div className="nav">
         <p>
-          <Link href="/">文本</Link>
+          <Link href="/">ChatGPT</Link>
           <Link href="/art">绘画</Link>
         </p>
       </div>
